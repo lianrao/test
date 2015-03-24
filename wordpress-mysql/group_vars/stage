@@ -1,0 +1,6 @@
+---
+#stage environment variable
+mysql_port: 3307
+wp_db_name: wordpress
+wp_db_user: wordpress
+wp_db_password: secret

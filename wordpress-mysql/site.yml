@@ -1,0 +1,11 @@
+---
+- name: Install Wordpress, MySQL
+  hosts: "{{ host_env }}"
+  user: root
+
+  roles:
+    - common
+    - mysql 
+    - nginx
+    - php-fpm
+    - wordpress

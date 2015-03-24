@@ -1,0 +1,9 @@
+#product server
+[product]
+#wordpress-p1
+172.20.17.133
+
+
+[stage]
+#wordpress-s1
+172.20.17.133
